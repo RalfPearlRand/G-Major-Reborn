@@ -1,25 +1,13 @@
-# Licença
+# Licença do projeto
 
-G-Major Reborn — Copyright (C) 2026 os autores do projeto.
+Os direitos autorais das contribuições originais pertencem aos respectivos autores. As contribuições originais deste projeto são disponibilizadas sob a **GNU General Public License, versão 3 ou posterior (GPL-3.0-or-later)**.
 
-Este programa é software livre: você pode redistribuí-lo e/ou modificá-lo sob os termos da
-**GNU General Public License, versão 3** ou (a seu critério) qualquer versão posterior,
-publicada pela Free Software Foundation. Texto completo: <https://www.gnu.org/licenses/gpl-3.0.txt>.
+O texto integral da licença está em [COPYING](COPYING). A licença não substitui nem altera as licenças próprias de componentes de terceiros. Consulte [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 SPDX-License-Identifier: GPL-3.0-or-later
 
-## Componentes de terceiros
+## Referências de compatibilidade
 
-| Componente | Licença | Observação |
-|---|---|---|
-| JUCE 7.0.12 | GPLv3 (ou comercial) | baixado no build; o splash screen é desativado sob a GPL |
-| Steinberg VST3 SDK (incluído no JUCE) | GPLv3 (ou proprietária Steinberg) | |
-| Steinberg ASIO SDK | licença Steinberg | **não incluído**; opcional, baixado pelo usuário |
-| llvm-mingw | Apache-2.0 com exceções LLVM / ISC | só para compilar; o runtime está linkado estaticamente |
+Este é um projeto independente de compatibilidade. Os nomes “TC Electronic”, “G•Major” e “GLydian” são mencionados apenas para identificar o equipamento e o software de referência. O projeto não é afiliado, autorizado, patrocinado ou endossado pelos titulares dessas marcas.
 
-## Material de referência
-
-O editor GLydian e o manual do G•Major foram usados apenas como **referência** para
-interoperabilidade (formato de preset e comportamento documentado). Nenhum código do GLydian
-e nenhum dado de preset da TC Electronic foi copiado para este projeto. Os 20 presets incluídos
-foram criados para este projeto.
+O repositório não distribui o executável GLydian, o manual do fabricante nem bancos de presets de fábrica. Os relatórios técnicos descrevem a análise e as diferenças conhecidas; não constituem autorização dos titulares de direitos de terceiros.
